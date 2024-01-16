@@ -1,0 +1,40 @@
+<head>
+  <meta charset="utf-8" />
+  <title>Firebase Meetup</title>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="app">
+    <section id="like-dislike" style="display:block">
+      <button id="like"><i class="material-icons">favorite</i><span>Like</span></button>
+      <button id="dislike"><i class="material-icons">psychology_alt</i><span>I don't quite understand...</span></button>
+    </section>
+
+    <section id="message-submission" style="display:none">
+      <p>Which parts are you struggling with?</P>
+      <input id="message" type="text"></input>
+      
+      <button id="submit"><i class="material-icons">send</i><span>Submit</span></button>
+    </section>
+
+    <section id="thankyou-message" style="display:none">
+      <p>Thank you for submitting your feedback. We love to get your views on our materials and we're always working to update and improve. Good luck with the rest of your lesson!</p>
+    </section>
+  </div>
+</body>
